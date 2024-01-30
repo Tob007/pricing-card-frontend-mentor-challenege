@@ -1,0 +1,126 @@
+html {
+  box-sizing: border-box;
+}
+
+h3, h4, p {
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 50px;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+
+}
+
+#card {
+  width:600px;
+  height: 360px;
+  box-shadow: -2px -17px 18px 18px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  overflow: hidden; 
+}
+
+#topSection{
+  width: 100%;
+  height:45%;
+  padding: 30px;
+}
+
+#bottomSection {
+  width: 100%;
+  height:55%; 
+}
+
+#bottomLeftSection {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  height:100%;
+  background-color: #2ab2af;
+  padding: 30px;
+  color: white  
+}
+
+#bottomRightSection {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  height:100%;
+  background-color: #2ebfbd;
+  padding: 30px;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  opacity: 0.8;
+  font-size: 0.8rem;
+}
+ 
+
+
+#topSection H3 {
+  margin-bottom: 24px;
+  color: #2ab2af;
+}
+
+#topSection H4 {
+  margin-bottom: 12px;
+  color: #c0df34;
+}
+
+#topSection p {
+  margin-bottom: 12px;
+  color: #98a6bd;
+  font-size: 0.8rem;
+  font-weight: regular;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #c0df34;
+  color: white;
+  box-shadow: 1px 0px 11px 6px rgba(0,0,0,0.0.4);
+  
+}
+button:hover {
+  cursor: pointer;
+  background-color: #aed64f;
+  transform: scale(1.04);
+}
+
+#price{
+  font-weight: 700;
+  font-size: 1.3rem;
+  display: inline-block;
+}
+
+#pricingCommitment{
+  position: relative;
+  top: -2px;
+  font-size: 0.8rem;
+  color: #e5eff5;
+  opacity: 0.8;
+  display: inline-block;
+  
+}
+
+#bottomLeftSection h4 {
+  margin-bottom: 10px;
+}
+
+#bottomLeftSection p {
+  font-size: 0.8rem;
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
+
